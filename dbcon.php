@@ -1,7 +1,7 @@
 <?php 
 $serveri="127.0.0.1";
-$username="YOUR_USERNAME";
-$password="YOUR_PASSWORD";
+$username="root";
+$password="YOURPASS";
 $databaza="pizzadb";
  
 
@@ -13,7 +13,7 @@ mysqli_select_db($link,$databaza);
 $conn = new mysqli($serveri, $username, $password, $databaza);
 
 if ($conn->connect_error) {
-    die("Error withe  the db con " . $conn->connect_error);
+    die("Error with    the db con  try this link  <a href='https://illyrianrace.com/piza/'>  click to open app   </a> " . $conn->connect_error);
 } 
  
 
