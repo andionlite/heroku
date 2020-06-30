@@ -1,6 +1,6 @@
 <?php 
-$serveri="127.0.0.1";
-$username="root";
+$serveri="illyrianrace.com";
+$username="YOURPPA";
 $password="YOURPASS";
 $databaza="pizzadb";
  
